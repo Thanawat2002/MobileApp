@@ -25,9 +25,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         btnCal = (Button) findViewById(R.id.btnCal);
-
         btnCal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -36,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
                 TextView textView10 = (TextView) findViewById(R.id.textView10);
                 TextView textView11 = (TextView) findViewById(R.id.textView11);
                 TextView textView12 = (TextView) findViewById(R.id.textView12);
-
                 try {
                     int number1 = Integer.parseInt(Number_01.getText().toString());
                     int number2 = Integer.parseInt(Number_02.getText().toString());
