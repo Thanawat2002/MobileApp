@@ -1,2 +1,2 @@
-# MoblieApp
-Leraning java basic
+# MobileApp
+Learning java in the classroom
