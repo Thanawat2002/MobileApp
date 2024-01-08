@@ -24,41 +24,41 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="188dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
         android:text="Username :"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/usernameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="188dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="45dp"
         android:text="Password :"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/usernameText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="38dp"
-        android:layout_marginTop="36dp"
-        android:ems="10"
-        android:inputType="text"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <EditText
         android:id="@+id/passwordText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="25dp"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintStart_toEndOf="@+id/textView2"
@@ -68,8 +68,8 @@
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="168dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="56dp"
         android:text="LOGIN"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -77,10 +77,10 @@
 
     <Button
         android:id="@+id/btnClear"
-        android:layout_width="112dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="72dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="56dp"
         android:text="CLEAR"
         android:textSize="20sp"
         app:layout_constraintStart_toEndOf="@+id/btnLogin"
