@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Change Base Number</string>
+    <string name="onClick">OnClick_btnChange</string>
+</resources>

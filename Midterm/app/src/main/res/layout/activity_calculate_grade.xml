@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CalculateGrade">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0CCFF"
+        android:text="โปรแกรมคำนวณเกรดเฉลี่ย"
+        android:textAlignment="center"
+        android:textColor="#3949AB"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputGrade1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="ใส่เกรด 1(A,B,C,D,F):"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/inputGrade2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="ใส่เกรด 2(A,B,C,D,F):"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/inputGrade3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="ใส่เกรด 3(A,B,C,D,F):"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/inputGrade4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="ใส่เกรด 4(A,B,C,D,F):"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/inputGrade5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="ใส่เกรด 5(A,B,C,D,F):"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnCalGrade"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#5E35B1"
+        android:text="คำนวณเกรดเฉลี่ย" />
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:layout_marginTop="20dp"
+        android:background="#7CB342"
+        android:text="Result:"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:backgroundTint="#5E35B1"
+        android:text="ย้อนกลับ"
+        app:icon="@android:drawable/ic_menu_revert" />
+
+</LinearLayout>

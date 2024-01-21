@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="14dp"
+    android:onClick="onClickEditText"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#673AB7"
+        android:text="Click Me!"
+        android:textAlignment="center"
+        android:textColor="#00FF00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:drawableBottomCompat="@android:drawable/btn_star_big_on" />
+
+    <EditText
+        android:id="@+id/dataText"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="14dp"
+        android:drawableLeft="@android:drawable/ic_input_add"
+        android:ems="10"
+        android:hint="Enter Data :"
+        android:inputType="text"
+        android:onClick="onClickEditText"
+        android:textColor="#5E35B1"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="14dp"
+        android:drawableRight="@android:drawable/ic_input_add"
+        android:text="ADD DATA"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
